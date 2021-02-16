@@ -1,1 +1,8 @@
 /** Styles **/
+
+button {
+    display: block;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+}
