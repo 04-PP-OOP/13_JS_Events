@@ -26,7 +26,7 @@ btn.addEventListener("click", actOnClick);
 function actOnClick() {
     ausgabe("hier wurde geklickt!");
 
-    if (true) { // ??
+    if (item_body.className == "day") { // ??
         switchToNightMode();
     } else {
         switchToDayMode()
